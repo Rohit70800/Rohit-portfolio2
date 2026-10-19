@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohit Prajapati - Computer Engineering Diploma Student at Seth Jai Prakash Polytechnic, Damla | Aspiring Web Developer Portfolio.">
+    <meta name="author" content="Rohit Prajapati">
+    <title>Rohit Prajapati | Computer Engineering Diploma Student & Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glowing Background Accents -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-name">Rohit</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-item active"><i class="fas fa-home"></i> Home</a>
+                <a href="#about" class="nav-item"><i class="fas fa-user"></i> About</a>
+                <a href="#skills" class="nav-item"><i class="fas fa-code"></i> Skills</a>
+                <a href="#education" class="nav-item"><i class="fas fa-graduation-cap"></i> Education</a>
+                <a href="#projects" class="nav-item"><i class="fas fa-laptop-code"></i> Projects</a>
+                <a href="#contact" class="nav-item"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+
+            <!-- Nav Actions -->
+            <div class="nav-actions">
+                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <!-- Hero Left: Content -->
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="badge-dot"></span>
+                        <span>Computer Engineering Diploma Student | Fresher</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Rohit Prajapati</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        I am a <span class="typed-text" id="typedText">Computer Engineering Diploma Student</span><span class="cursor">&nbsp;</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Diploma student in Computer Engineering at <strong>Seth Jai Prakash Polytechnic, Damla</strong> (Pursuing | 3rd Year / 5th Semester). Looking for a fresher job where I can use my programming and web development skills, learn new things, and grow my career.
+                    </p>
+
+                    <!-- Call To Action Buttons -->
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Academic Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+
+                    <!-- Social / Connect Links -->
+                    <div class="social-links">
+                        <span class="social-label">Connect:</span>
+                        <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:rohit8381964035@gmail.com" class="social-icon" title="Send Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+917275497603" class="social-icon" title="Call Me">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+
+                    <!-- Quick Metrics Strip -->
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">5th</span>
+                            <span class="stat-label">Semester (3rd Yr)</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Academic Projects</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number">Fresher</span>
+                            <span class="stat-label">Seeking Entry-Level</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Photo Integration -->
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper">
+                        <!-- Neon Glow Underlay -->
+                        <div class="profile-aura"></div>
+
+                        <!-- Rounded Rectangular Frame with Blue-Purple Border -->
+                        <div class="profile-frame">
+                            <img 
+                                src="images/rohit-profile.png?v=2" 
+                                alt="Rohit Prajapati - Computer Engineering Diploma Student" 
+                                class="profile-img"
+                                id="profileImg"
+                            >
+                            <!-- Inner Glass Overlay on Hover -->
+                            <div class="profile-overlay">
+                                <span class="profile-tag">Rohit Prajapati</span>
+                                <span class="profile-subtag">Seth Jai Prakash Polytechnic, Damla</span>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-top-right">
+                            <div class="badge-icon"><i class="fas fa-university"></i></div>
+                            <div class="badge-text">
+                                <strong>Seth Jai Prakash Polytechnic</strong>
+                                <span>Damla (Pursuing)</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bottom-left">
+                            <div class="badge-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="badge-text">
+                                <strong>Computer Engineering</strong>
+                                <span>3rd Year / 5th Semester</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Get to know me</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">A glimpse into my background, passion for technology, and aspirations in software development.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio-card glass-panel">
+                        <div class="about-icon-header">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Career Objective</h3>
+                        <p>
+                            I am a Diploma student in Computer Engineering looking for a fresher job where I can use my basic programming and web development skills, learn new things, and grow my career.
+                        </p>
+                        <p>
+                            With hands-on experience in building interactive academic projects—including an AI video dubbing web application and an online learning platform—I am eager to contribute with high dedication, continuous learning, and practical problem solving.
+                        </p>
+                        
+                        <!-- Personal Motto Banner -->
+                        <div class="motto-banner">
+                            <div class="motto-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <span>Focus · Discipline · Success</span>
+                            </div>
+                            <span class="motto-author">— Rohit Prajapati</span>
+                        </div>
+                    </div>
+
+                    <div class="about-info-cards">
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="info-body">
+                                <h4>Education</h4>
+                                <p>Diploma in Computer Engineering</p>
+                                <span class="subtext">Seth Jai Prakash Polytechnic, Damla (5th Sem)</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fas fa-briefcase"></i></div>
+                            <div class="info-body">
+                                <h4>Status & Goal</h4>
+                                <p>Fresher / Diploma Student</p>
+                                <span class="subtext">Seeking Entry-Level Jobs & Internships</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-body">
+                                <h4>Location</h4>
+                                <p>Janipur, District Gorakhpur</p>
+                                <span class="subtext">Uttar Pradesh, India</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fab fa-github"></i></div>
+                            <div class="info-body">
+                                <h4>GitHub Profile</h4>
+                                <p>Rohit70800</p>
+                                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="link-styled">
+                                    github.com/Rohit70800 <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">My Toolkit</span>
+                    <h2 class="section-title">Skills & <span class="gradient-text">Competencies</span></h2>
+                    <p class="section-subtitle">Technologies and methodologies I use to turn ideas into responsive web applications.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Web Development Card -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <div class="category-icon icon-blue"><i class="fas fa-code"></i></div>
+                            <div>
+                                <h3>Web Development</h3>
+                                <span class="category-tag">Frontend & Web Interface</span>
+                            </div>
+                        </div>
+                        <ul class="skills-pill-list">
+                            <li class="skill-pill"><i class="fab fa-html5"></i> HTML</li>
+                            <li class="skill-pill"><i class="fab fa-css3-alt"></i> CSS</li>
+                            <li class="skill-pill"><i class="fab fa-js"></i> JavaScript</li>
+                            <li class="skill-pill"><i class="fas fa-laptop-code"></i> Responsive Web Design</li>
+                        </ul>
+                    </div>
+
+                    <!-- Programming Languages Card -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <div class="category-icon icon-purple"><i class="fas fa-terminal"></i></div>
+                            <div>
+                                <h3>Programming Languages</h3>
+                                <span class="category-tag">Core Syntax & Logic</span>
+                            </div>
+                        </div>
+                        <ul class="skills-pill-list">
+                            <li class="skill-pill"><i class="fas fa-code"></i> C</li>
+                            <li class="skill-pill"><i class="fab fa-java"></i> Java (Basic)</li>
+                            <li class="skill-pill"><i class="fab fa-python"></i> Python (Basic)</li>
+                            <li class="skill-pill"><i class="fas fa-cubes"></i> Python Flask</li>
+                        </ul>
+                    </div>
+
+                    <!-- AI, Media & Tools Card -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <div class="category-icon icon-cyan"><i class="fas fa-robot"></i></div>
+                            <div>
+                                <h3>AI, Media & Tools</h3>
+                                <span class="category-tag">Academic & Project Tech</span>
+                            </div>
+                        </div>
+                        <ul class="skills-pill-list">
+                            <li class="skill-pill"><i class="fas fa-microphone-alt"></i> Whisper AI</li>
+                            <li class="skill-pill"><i class="fas fa-language"></i> Translation API</li>
+                            <li class="skill-pill"><i class="fas fa-volume-up"></i> Text-to-Speech</li>
+                            <li class="skill-pill"><i class="fas fa-film"></i> FFmpeg</li>
+                            <li class="skill-pill"><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft Skills, Office & Spoken Languages Card -->
+                    <div class="skill-category-card glass-panel">
+                        <div class="category-header">
+                            <div class="category-icon icon-emerald"><i class="fas fa-user-check"></i></div>
+                            <div>
+                                <h3>Soft Skills & Office Tools</h3>
+                                <span class="category-tag">Communication & Productivity</span>
+                            </div>
+                        </div>
+                        <ul class="skills-pill-list">
+                            <li class="skill-pill"><i class="fas fa-comments"></i> Communication</li>
+                            <li class="skill-pill"><i class="fas fa-users"></i> Teamwork</li>
+                            <li class="skill-pill"><i class="fas fa-puzzle-piece"></i> Problem-Solving</li>
+                            <li class="skill-pill"><i class="fas fa-file-word"></i> MS Word</li>
+                            <li class="skill-pill"><i class="fas fa-file-excel"></i> MS Excel</li>
+                            <li class="skill-pill"><i class="fas fa-file-powerpoint"></i> MS PowerPoint</li>
+                            <li class="skill-pill"><i class="fas fa-globe"></i> Hindi & English</li>
+                            <li class="skill-pill"><i class="fas fa-language"></i> Punjabi (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Academic Background</span>
+                    <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+                    <p class="section-subtitle">Academic milestones shaping my technical foundation in computer engineering.</p>
+                </div>
+
+                <div class="education-wrapper">
+                    <!-- Main Diploma Card -->
+                    <div class="education-card glass-panel">
+                        <div class="edu-badge-year">
+                            <i class="fas fa-clock"></i> Pursuing | 3rd Year / 5th Semester
+                        </div>
+                        <div class="edu-header">
+                            <div class="edu-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="edu-title-group">
+                                <h3>Diploma in Computer Engineering</h3>
+                                <h4 class="edu-institution">Seth Jai Prakash Polytechnic, Damla</h4>
+                            </div>
+                        </div>
+                        <div class="edu-body">
+                            <p>
+                                Technical engineering diploma program focused on practical software development, programming languages, and web engineering. Hands-on experience in computer laboratories, algorithms, and practical software assignments.
+                            </p>
+                            <div class="edu-highlights">
+                                <span class="highlight-tag"><i class="fas fa-check"></i> Web Development (HTML, CSS, JS)</span>
+                                <span class="highlight-tag"><i class="fas fa-check"></i> Programming Languages (C, Java, Python)</span>
+                                <span class="highlight-tag"><i class="fas fa-check"></i> Python Flask Web Development</span>
+                                <span class="highlight-tag"><i class="fas fa-check"></i> AI Speech Dubbing & Video Processing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Secondary & Higher Secondary Education Subgrid -->
+                    <div class="edu-subgrid">
+                        <!-- Class XII Card -->
+                        <div class="edu-subcard glass-panel">
+                            <div class="edu-subcard-header">
+                                <div>
+                                    <h4 class="edu-subcard-title">Class XII</h4>
+                                    <p class="edu-subcard-school">R.S.K.I.C. / Government School</p>
+                                </div>
+                                <span class="edu-year-badge">2025</span>
+                            </div>
+                            <div class="marks-badge">
+                                <i class="fas fa-award"></i> Marks: 65%
+                            </div>
+                        </div>
+
+                        <!-- Class X Card -->
+                        <div class="edu-subcard glass-panel">
+                            <div class="edu-subcard-header">
+                                <div>
+                                    <h4 class="edu-subcard-title">Class X</h4>
+                                    <p class="edu-subcard-school">R.S.K.I.C. / Government School</p>
+                                </div>
+                                <span class="edu-year-badge">2023</span>
+                            </div>
+                            <div class="marks-badge">
+                                <i class="fas fa-award"></i> Marks: 75%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Portfolio Highlights</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subtitle">Key software and web applications demonstrating my practical engineering capabilities.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Academic Project 1: Online Learning Hub Website -->
+                    <div class="project-card glass-panel">
+                        <div class="project-visual visual-learning">
+                            <div class="project-overlay-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="project-category-badge">
+                                <i class="fas fa-book-reader"></i> Academic Project
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-num">01 / ACADEMIC PROJECT</div>
+                            <h3 class="project-title">Online Learning Hub Website</h3>
+                            <p class="project-desc">
+                                A web-based learning platform project for organizing course content and study resources.
+                            </p>
+
+                            <div class="project-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i> Focused on creating a simple interface for browsing courses and accessing learning materials.
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i> Structured step-by-step interactive tutorials and clean modular study resources.
+                                </div>
+                            </div>
+
+                            <div class="tech-stack-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                    <i class="fab fa-github"></i>
+                                    <span>View on GitHub</span>
+                                </a>
+                                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>Explore Project</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Academic Project 2: AI Video Translation & Dubbing App -->
+                    <div class="project-card glass-panel">
+                        <div class="project-visual visual-ai">
+                            <div class="project-overlay-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <div class="project-category-badge">
+                                <i class="fas fa-robot"></i> Academic Project
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-num">02 / ACADEMIC PROJECT</div>
+                            <h3 class="project-title">AI Video Translation & Dubbing App</h3>
+                            <p class="project-desc">
+                                Developing an AI-powered web application that translates video speech into different languages.
+                            </p>
+                            
+                            <div class="project-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i> Designed a user interface for uploading videos, selecting a target language, and previewing translated videos.
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i> Working with speech recognition, text translation, text-to-speech, and video processing technologies.
+                                </div>
+                            </div>
+
+                            <div class="tech-stack-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Python Flask</span>
+                                <span class="tech-tag">Whisper</span>
+                                <span class="tech-tag">Translation API</span>
+                                <span class="tech-tag">Text-to-Speech</span>
+                                <span class="tech-tag">FFmpeg</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                    <i class="fab fa-github"></i>
+                                    <span>View on GitHub</span>
+                                </a>
+                                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>View Source Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                    <p class="section-subtitle">Interested in collaborating or discussing opportunities? Feel free to reach out!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards -->
+                    <div class="contact-info-column">
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-email"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-title">Email</span>
+                                <a href="mailto:rohit8381964035@gmail.com" class="contact-value">rohit8381964035@gmail.com</a>
+                            </div>
+                            <button class="copy-btn" data-copy="rohit8381964035@gmail.com" title="Copy email address">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-phone"><i class="fas fa-phone"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-title">Phone</span>
+                                <a href="tel:+917275497603" class="contact-value">+91 7275497603</a>
+                            </div>
+                            <button class="copy-btn" data-copy="+917275497603" title="Copy phone number">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-github"><i class="fab fa-github"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-title">GitHub Profile</span>
+                                <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/Rohit70800</a>
+                            </div>
+                            <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" class="contact-link-arrow">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-location"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-title">Location</span>
+                                <span class="contact-value">Janipur, District Gorakhpur, Uttar Pradesh, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-seeking"><i class="fas fa-briefcase"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-title">Seeking</span>
+                                <span class="contact-value">Entry-Level Jobs & Internships</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Contact Form -->
+                    <div class="contact-form-column">
+                        <form class="contact-form glass-panel" id="contactForm">
+                            <h3 class="form-title">Send Me a Direct Message</h3>
+                            
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-tag"></i>
+                                    <input type="text" id="subject" name="subject" placeholder="Project collaboration / Internship inquiry" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <div class="input-wrapper textarea-wrapper">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <textarea id="message" name="message" rows="5" placeholder="Hello Rohit, I'd like to discuss..." required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+
+                            <div class="form-feedback" id="formFeedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-name">Rohit Prajapati</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-tagline">Computer Engineering Diploma Student at Seth Jai Prakash Polytechnic, Damla | Aspiring Web Developer & Fresher.</p>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-heading">Navigation</span>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-social">
+                <span class="footer-heading">Connect</span>
+                <div class="footer-social-icons">
+                    <a href="https://github.com/Rohit70800" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:rohit8381964035@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+917275497603" title="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; <span id="currentYear">2026</span> Rohit Prajapati. All rights reserved.</p>
+                <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+                    <span>Back to Top</span>
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
